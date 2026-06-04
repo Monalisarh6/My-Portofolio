@@ -62,7 +62,7 @@ export function WhyHire() {
           ))}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-1 gap-6 max-w-2xl mx-auto">
           {testimonials.map((t, i) => (
             <motion.figure
               key={t.name}
