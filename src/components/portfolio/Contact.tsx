@@ -16,9 +16,9 @@ const schema = z.object({
 });
 
 const contacts = [
-  { icon: Mail, label: "Email", value: "mhlenge.mathenjwa@example.com", href: "mailto:mhlenge.mathenjwa@example.com" },
-  { icon: Phone, label: "Phone", value: "+27 (0) 00 000 0000", href: "tel:+27000000000" },
-  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/mhlenge", href: "https://linkedin.com/" },
+  { icon: Mail, label: "Email", value: "mhlengemathenjwa@gmail.com", href: "mailto:mhlengemathenjwa@gmail.com" },
+  { icon: Phone, label: "Phone", value: "076 835 0022", href: "tel:+27768350022" },
+  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/mhlenge-mathenjwa-3aa609255", href: "https://www.linkedin.com/in/mhlenge-mathenjwa-3aa609255" },
   { icon: Github, label: "GitHub", value: "github.com/mhlenge", href: "https://github.com/" },
 ];
 
