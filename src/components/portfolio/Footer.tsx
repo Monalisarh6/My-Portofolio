@@ -23,8 +23,8 @@ export function Footer() {
           <div className="flex md:justify-center gap-3">
             {[
               { icon: Github, href: "https://github.com/" },
-              { icon: Linkedin, href: "https://linkedin.com/" },
-              { icon: Mail, href: "mailto:mhlenge.mathenjwa@example.com" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/mhlenge-mathenjwa-3aa609255" },
+              { icon: Mail, href: "mailto:mhlengemathenjwa@gmail.com" },
             ].map((s, i) => (
               <a
                 key={i}

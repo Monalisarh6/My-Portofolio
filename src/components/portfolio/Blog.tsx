@@ -14,7 +14,7 @@ const posts = [
     category: "Software",
     title: "Building production-ready ASP.NET apps as a graduate",
     excerpt:
-      "Lessons from shipping the Enterprise POS — schema design, authorization and clean controller patterns.",
+      "Lessons from shipping the Enterprise POS - schema design, authorization and clean controller patterns.",
   },
   {
     date: "Coming soon",
@@ -32,7 +32,7 @@ export function Blog() {
         <div className="flex flex-wrap items-end justify-between gap-6 mb-12">
           <div className="max-w-2xl">
             <div className="text-xs font-mono text-brand mb-4 tracking-wider">
-              08 — INSIGHTS
+              08 - INSIGHTS
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
               Notes from the field.

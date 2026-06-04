@@ -20,7 +20,7 @@ export function About() {
             transition={{ duration: 0.6 }}
           >
             <div className="text-xs font-mono text-brand mb-4 tracking-wider">
-              01 — ABOUT ME
+              01 - ABOUT ME
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold mb-6">
               Bridging software and infrastructure.
@@ -39,7 +39,7 @@ export function About() {
               </p>
               <p>
                 I'm equally comfortable shipping a feature in ASP.NET or troubleshooting
-                a VLAN — driven by automation, cybersecurity, and the craft of
+                a VLAN - driven by automation, cybersecurity, and the craft of
                 well-engineered systems.
               </p>
             </div>

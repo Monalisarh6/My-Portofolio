@@ -72,7 +72,7 @@ export function Skills() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="max-w-2xl mb-16">
           <div className="text-xs font-mono text-brand mb-4 tracking-wider">
-            02 — TECHNICAL SKILLS
+            02 - TECHNICAL SKILLS
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
             A full-stack technologist.

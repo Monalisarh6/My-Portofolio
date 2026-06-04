@@ -15,7 +15,7 @@ import { Footer } from "@/components/portfolio/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Mhlenge Kenneth Mathenjwa — Software Developer & IT Specialist" },
+      { title: "Mhlenge Kenneth Mathenjwa - Software Developer & IT Specialist" },
       {
         name: "description",
         content:
@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
         content:
           "Mhlenge Mathenjwa, Software Developer, IT Support, Systems Administrator, Microsoft 365, Cisco, Cybersecurity, ASP.NET, Python, South Africa",
       },
-      { property: "og:title", content: "Mhlenge Kenneth Mathenjwa — Portfolio" },
+      { property: "og:title", content: "Mhlenge Kenneth Mathenjwa - Portfolio" },
       {
         property: "og:description",
         content:

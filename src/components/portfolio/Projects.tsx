@@ -64,7 +64,7 @@ export function Projects() {
         <div className="flex flex-wrap items-end justify-between gap-6 mb-12">
           <div className="max-w-2xl">
             <div className="text-xs font-mono text-brand mb-4 tracking-wider">
-              04 — FEATURED PROJECTS
+              04 - FEATURED PROJECTS
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
               Selected work.
