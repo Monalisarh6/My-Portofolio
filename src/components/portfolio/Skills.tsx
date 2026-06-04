@@ -47,7 +47,6 @@ const groups = [
       { name: "DHCP", level: 86 },
       { name: "VLAN", level: 80 },
       { name: "Network Troubleshooting", level: 88 },
-      { name: "Ubiquiti", level: 82 },
     ],
   },
   {
