@@ -31,7 +31,7 @@ export function Certifications() {
             className="lg:col-span-2"
           >
             <div className="text-xs font-mono text-brand mb-4 tracking-wider">
-              05 — CERTIFICATIONS
+              05 - CERTIFICATIONS
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
               Credentials & milestones.

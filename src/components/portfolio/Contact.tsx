@@ -51,7 +51,7 @@ export function Contact() {
             viewport={{ once: true }}
           >
             <div className="text-xs font-mono text-brand mb-4 tracking-wider">
-              07 — CONTACT
+              07 - CONTACT
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
               Let's build something solid.

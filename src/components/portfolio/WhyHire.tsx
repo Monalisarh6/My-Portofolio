@@ -11,7 +11,7 @@ const pillars = [
 const testimonials = [
   {
     quote:
-      "Mhlenge consistently delivers — whether it's resolving a ticket under SLA or shipping a clean feature. He's the kind of teammate every IT operation needs.",
+      "Mhlenge consistently delivers - whether it's resolving a ticket under SLA or shipping a clean feature. He's the kind of teammate every IT operation needs.",
     name: "ICT Team Lead",
     role: "Johannesburg Development Agency",
   },
@@ -37,7 +37,7 @@ export function WhyHire() {
           className="max-w-4xl mx-auto text-center mb-16"
         >
           <div className="text-xs font-mono text-brand mb-4 tracking-wider">
-            06 — WHY HIRE ME
+            06 - WHY HIRE ME
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold mb-6">
             One hire. <span className="text-gradient-brand">Two disciplines.</span>

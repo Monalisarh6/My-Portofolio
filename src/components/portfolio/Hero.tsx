@@ -33,7 +33,7 @@ export function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-border bg-surface/60 backdrop-blur text-xs font-medium text-muted-foreground mb-8">
             <Sparkles className="size-3.5 text-brand" />
-            Available for opportunities — South Africa & Remote
+            Available for opportunities - South Africa & Remote
           </div>
 
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] mb-6">
