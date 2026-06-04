@@ -43,7 +43,7 @@ export function Hero() {
           </h1>
 
           <p className="text-lg sm:text-xl text-muted-foreground font-medium mb-4 max-w-3xl">
-            Software Developer <span className="text-brand">·</span> IT Support Specialist{" "}
+            Junior Software Developer <span className="text-brand">·</span> Junior IT Technician{" "}
             <span className="text-brand">·</span> Systems & Network Infrastructure
           </p>
 
