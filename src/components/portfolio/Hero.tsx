@@ -75,8 +75,8 @@ export function Hero() {
           <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl">
             {[
               { v: "BSc", l: "Computer Science & IT" },
-              { v: "3+", l: "Years of Experience" },
-              { v: "10+", l: "Projects Delivered" },
+              { v: "1+", l: "Years of Experience" },
+              { v: "3", l: "Projects Delivered" },
               { v: "Cisco", l: "Certified Professional" },
             ].map((s) => (
               <div key={s.l} className="border-l-2 border-brand/60 pl-4">
