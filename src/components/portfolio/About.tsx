@@ -28,19 +28,25 @@ export function About() {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 I'm a Computer Science & IT graduate from the University of KwaZulu-Natal
-                with a passion for building reliable software and supporting the enterprise
-                technology that powers modern business.
+                with a passion for building reliable software and supporting the
+                technology that powers modern organisations.
               </p>
               <p>
-                My experience spans full-stack development, Microsoft 365 administration,
-                network support, and endpoint security. I currently serve as an ICT Intern
-                at the Johannesburg Development Agency, where I support real users,
-                deploy hardware, and keep critical systems running.
+                My experience spans software development, Microsoft 365 administration,
+                network support, endpoint security, and systems administration. I've
+                worked in enterprise environments supporting users, managing technology
+                assets, troubleshooting infrastructure, and helping maintain secure and
+                efficient IT operations.
               </p>
               <p>
-                I'm equally comfortable shipping a feature in ASP.NET or troubleshooting
-                a VLAN - driven by automation, cybersecurity, and the craft of
-                well-engineered systems.
+                With a foundation in both development and IT, I'm equally comfortable
+                building applications with C#, ASP.NET, and Python as I am diagnosing
+                network issues, managing user access, or improving operational
+                efficiency through technology.
+              </p>
+              <p>
+                I enjoy solving complex problems, learning new technologies, and
+                creating solutions that deliver real value to users and organisations.
               </p>
             </div>
           </motion.div>
