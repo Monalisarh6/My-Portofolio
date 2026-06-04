@@ -11,12 +11,6 @@ const pillars = [
 const testimonials = [
   {
     quote:
-      "Mhlenge consistently delivers - whether it's resolving a ticket under SLA or shipping a clean feature. He's the kind of teammate every IT operation needs.",
-    name: "ICT Team Lead",
-    role: "Johannesburg Development Agency",
-  },
-  {
-    quote:
       "A natural communicator with deep technical fundamentals. He explains complex concepts so students actually get them.",
     name: "Course Coordinator",
     role: "University of KwaZulu-Natal",
