@@ -23,20 +23,6 @@ const projects = [
     demo: "#",
   },
   {
-    title: "Career Advisory AI Chatbot",
-    category: "AI" as Category,
-    image: chatbot,
-    description:
-      "Conversational AI that delivers personalised career guidance using OpenAI's language models, wrapped in a clean Streamlit interface.",
-    tech: ["Python", "OpenAI API", "Streamlit"],
-    challenges:
-      "Engineered prompts and a context window strategy to keep recommendations grounded, relevant and safe for student users.",
-    impact:
-      "Made expert-style career advice accessible 24/7 to students exploring tech career paths.",
-    github: "https://github.com/",
-    demo: "#",
-  },
-  {
     title: "Real-Deal Soccer Quiz",
     category: "Game" as Category,
     image: quiz,

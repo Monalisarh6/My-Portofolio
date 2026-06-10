@@ -76,7 +76,7 @@ export function Hero() {
             {[
               { v: "BSc", l: "Computer Science & IT" },
               { v: "1+", l: "Years of Experience" },
-              { v: "3", l: "Projects Delivered" },
+              { v: "2", l: "Projects Delivered" },
               { v: "Cisco", l: "Certified Professional" },
             ].map((s) => (
               <div key={s.l} className="border-l-2 border-brand/60 pl-4">
