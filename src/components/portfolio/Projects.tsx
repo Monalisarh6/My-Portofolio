@@ -2,10 +2,10 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import { Github, ExternalLink } from "lucide-react";
 import pos from "@/assets/project-pos.jpg";
-import chatbot from "@/assets/project-chatbot.jpg";
+
 import quiz from "@/assets/project-quiz.jpg";
 
-type Category = "All" | "Web" | "AI" | "Game";
+type Category = "All" | "Web" | "Game";
 
 const projects = [
   {
@@ -38,7 +38,7 @@ const projects = [
   },
 ];
 
-const filters: Category[] = ["All", "Web", "AI", "Game"];
+const filters: Category[] = ["All", "Web", "Game"];
 
 export function Projects() {
   const [filter, setFilter] = useState<Category>("All");
