@@ -2,10 +2,10 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import { Github, ExternalLink } from "lucide-react";
 import pos from "@/assets/project-pos.jpg";
-import chatbot from "@/assets/project-chatbot.jpg";
+
 import quiz from "@/assets/project-quiz.jpg";
 
-type Category = "All" | "Web" | "AI" | "Game";
+type Category = "All" | "Web" | "Game";
 
 const projects = [
   {
@@ -19,20 +19,6 @@ const projects = [
       "Designed a normalised SQL Server schema and role-based authorisation to enforce least-privilege access across cashiers, managers and admins.",
     impact:
       "Cut manual stock reconciliation time and delivered real-time visibility of sales and inventory.",
-    github: "https://github.com/",
-    demo: "#",
-  },
-  {
-    title: "Career Advisory AI Chatbot",
-    category: "AI" as Category,
-    image: chatbot,
-    description:
-      "Conversational AI that delivers personalised career guidance using OpenAI's language models, wrapped in a clean Streamlit interface.",
-    tech: ["Python", "OpenAI API", "Streamlit"],
-    challenges:
-      "Engineered prompts and a context window strategy to keep recommendations grounded, relevant and safe for student users.",
-    impact:
-      "Made expert-style career advice accessible 24/7 to students exploring tech career paths.",
     github: "https://github.com/",
     demo: "#",
   },
@@ -52,7 +38,7 @@ const projects = [
   },
 ];
 
-const filters: Category[] = ["All", "Web", "AI", "Game"];
+const filters: Category[] = ["All", "Web", "Game"];
 
 export function Projects() {
   const [filter, setFilter] = useState<Category>("All");
