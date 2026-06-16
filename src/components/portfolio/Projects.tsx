@@ -27,12 +27,12 @@ const projects = [
     category: "Web" as Category,
     image: pos,
     description:
-      "Real-time chat app with AI-powered messaging, built with Java Spring Boot on the backend and HTML on the frontend, integrating the Groq API for AI responses and Supabase for the database. Deployed on Render.",
-    tech: ["Java", "Spring Boot", "HTML", "Groq API", "Supabase", "Render"],
+      "Full-stack real-time chat application built with Spring Boot (Java) exposing a structured RESTful backend, with persistent storage via Supabase.",
+    tech: ["Java", "Spring Boot", "Supabase", "REST API"],
     challenges:
-      "Integrated the Groq API for low-latency AI responses and wired Supabase as the persistent message store while keeping the Spring Boot service stateless for deployment on Render.",
+      "Designed a scalable RESTful backend in Spring Boot and integrated Supabase for persistent storage, applying a disciplined, test-driven development approach.",
     impact:
-      "Delivered a responsive real-time messaging experience with AI assistance, accessible from any browser via a public Render deployment.",
+      "Deployed to a cloud environment with continuous availability, delivering a responsive real-time messaging experience accessible from any browser.",
     github: "https://github.com/",
     demo: "#",
   },
