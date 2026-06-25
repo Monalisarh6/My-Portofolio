@@ -37,6 +37,20 @@ const projects = [
     demo: "#",
   },
   {
+    title: "AI Career Advisory Chatbot",
+    category: "Web" as Category,
+    image: pos,
+    description:
+      "AI-powered career advisory chatbot built in Python, integrating the OpenAI API with spaCy-based NLP to interpret user input and generate contextually relevant advisory responses.",
+    tech: ["Python", "OpenAI API", "Streamlit", "spaCy", "NLP"],
+    challenges:
+      "Customised the conversational interface for usability and response accuracy, and implemented API security best practices including key management and authenticated endpoint access.",
+    impact:
+      "Deployed via Streamlit Cloud with routine performance testing and monitoring, supported by clear technical documentation covering architecture, API integration, setup and usage.",
+    github: "https://github.com/",
+    demo: "#",
+  },
+  {
     title: "Real-Deal Soccer Quiz",
     category: "Game" as Category,
     image: quiz,
