@@ -5,7 +5,7 @@ import pos from "@/assets/project-pos.jpg";
 
 import quiz from "@/assets/project-quiz.jpg";
 
-type Category = "All" | "Web" | "Game";
+type Category = "All" | "Web" | "Game" | "IT";
 
 const projects = [
   {
