@@ -5,7 +5,7 @@ import pos from "@/assets/project-pos.jpg";
 
 import quiz from "@/assets/project-quiz.jpg";
 
-type Category = "All" | "Web" | "Game";
+type Category = "All" | "Web" | "Game" | "IT";
 
 const projects = [
   {
@@ -51,6 +51,20 @@ const projects = [
     demo: "#",
   },
   {
+    title: "Sage Intacct User Access and Configuration Support",
+    category: "IT" as Category,
+    image: pos,
+    description:
+      "Financial systems support initiative covering Sage Intacct configuration, user account administration and access governance in coordination with Microsoft 365 and Azure AD environments.",
+    tech: ["Sage Intacct", "Microsoft 365", "Azure AD"],
+    challenges:
+      "Configured and administered Sage Intacct for day-to-day use, set up user accounts and managed access permissions while coordinating with staff to confirm correct roles and access levels.",
+    impact:
+      "Reinforced data governance and account administration practices across the platform, ensuring users had appropriate, secure access to financial systems.",
+    github: "https://github.com/",
+    demo: "#",
+  },
+  {
     title: "Real-Deal Soccer Quiz",
     category: "Game" as Category,
     image: quiz,
@@ -66,7 +80,7 @@ const projects = [
   },
 ];
 
-const filters: Category[] = ["All", "Web", "Game"];
+const filters: Category[] = ["All", "Web", "Game", "IT"];
 
 export function Projects() {
   const [filter, setFilter] = useState<Category>("All");
