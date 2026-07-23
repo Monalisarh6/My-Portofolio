@@ -41,12 +41,12 @@ const projects = [
     category: "Web" as Category,
     image: pos,
     description:
-      "AI-powered career advisory chatbot built in Python, integrating the OpenAI API with spaCy-based NLP to interpret user input and generate contextually relevant advisory responses.",
+      "Analysed user requirements and developed an AI-powered career advisory chatbot in Python, integrating the OpenAI API and implementing natural language processing with spaCy to interpret user input and generate contextually relevant advisory responses.",
     tech: ["Python", "OpenAI API", "Streamlit", "spaCy", "NLP"],
     challenges:
-      "Customised the conversational interface for usability and response accuracy, and implemented API security best practices including key management and authenticated endpoint access.",
+      "Designed and customised the application to meet specific client-facing requirements, optimising the conversational interface for usability and response accuracy. Deployed the application via Streamlit's cloud platform, performing routine performance tests, monitoring application behaviour, and implementing corrections to resolve defects and improve stability. Implemented API security best practices including key management and authenticated endpoint access. Documented application architecture, API integration procedures, setup instructions, and usage guides, producing clear technical documentation aligned to professional software delivery standards.",
     impact:
-      "Deployed via Streamlit Cloud with routine performance testing and monitoring, supported by clear technical documentation covering architecture, API integration, setup and usage.",
+      "Delivered a secure, well-documented AI career advisory chatbot with an optimised conversational interface and robust API security practices.",
     github: "https://github.com/",
     demo: "#",
   },
