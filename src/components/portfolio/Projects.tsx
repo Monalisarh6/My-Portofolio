@@ -65,6 +65,20 @@ const projects = [
     demo: "#",
   },
   {
+    title: "Intern Task Management System",
+    category: "Web" as Category,
+    image: pos,
+    description:
+      "Task management application built with C#, ASP.NET Core MVC, Entity Framework Core and SQL Server, with authentication, leave requests and a documented REST API.",
+    tech: ["C#", "ASP.NET Core MVC", "Entity Framework Core", "SQL Server", "Swagger", "ASP.NET Identity", "Git"],
+    challenges:
+      "Built the application with code-first migrations, documented GET /api/tasks with Swagger, and implemented ASP.NET Identity authentication with seeded Admin and User roles. Added leave requests for users to submit and track, with an admin review flow for pending requests.",
+    impact:
+      "Organised delivery in a private GitHub repository using a develop branch, feature branches and a pull request review workflow.",
+    github: "https://github.com/",
+    demo: "#",
+  },
+  {
     title: "Real-Deal Soccer Quiz",
     category: "Game" as Category,
     image: quiz,
