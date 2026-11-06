@@ -6,7 +6,7 @@ const experiences = [
     icon: Briefcase,
     role: "Software Developer Intern",
     company: "Billetterie Software, Midrand, Johannesburg",
-    period: "Sep 2026 – Present",
+    period: "Sep 2026 - Present",
     bullets: [
       "Contribute to the development, testing and maintenance of software applications in a structured, client-facing IT services environment, working within agreed processes and quality standards.",
       "Collaborate with developers and project stakeholders to clarify requirements, track tasks and deliver work against agreed timelines.",
