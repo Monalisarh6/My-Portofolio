@@ -4,6 +4,18 @@ import { Briefcase, GraduationCap, Globe } from "lucide-react";
 const experiences = [
   {
     icon: Briefcase,
+    role: "Software Developer Intern",
+    company: "Billetterie Software, Midrand, Johannesburg",
+    period: "Sep 2026 - Present",
+    bullets: [
+      "Contribute to the development, testing and maintenance of software applications in a structured, client-facing IT services environment, working within agreed processes and quality standards.",
+      "Collaborate with developers and project stakeholders to clarify requirements, track tasks and deliver work against agreed timelines.",
+      "Apply programming and database fundamentals, building on C#, Java, Python and SQL Server project experience, to support application features, debugging and documentation.",
+      "Gain exposure to professional software delivery practices, version control and team-based workflows.",
+    ],
+  },
+  {
+    icon: Briefcase,
     role: "ICT Intern",
     company: "Johannesburg Development Agency",
     period: "Present",
